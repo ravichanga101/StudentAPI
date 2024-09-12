@@ -17,3 +17,25 @@ Points discussed :
 -	Delete Operation
 
 
+Steps to Create Web API :
+
+- Create Web API Project
+```
+Install Packages
+Install-Package Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package Microsoft.EntityFrameworkCore.Tools
+Install-Package Microsoft.AspNetCore.Cors
+```
+- Define the Student Model
+- Set Up the Database Context (inside Data Folder)
+- Configure the Connection String - appsettings.json
+- Configure the Services in Program.cs
+- Create the CRUD Controller
+- Create and Apply Migrations in NuGet Package Manager Console
+```
+add-migration initial
+update-database
+```
+- Test the API
+
+
