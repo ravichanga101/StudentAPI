@@ -20,8 +20,8 @@ Points discussed :
 # Steps to Create Web API :
 
 - Create Web API Project
+- Install Packages using NuGet Package Manager Console
 ```
-Install Packages
 Install-Package Install-Package Microsoft.EntityFrameworkCore.SqlServer
 Install-Package Microsoft.EntityFrameworkCore.Tools
 Install-Package Microsoft.AspNetCore.Cors
